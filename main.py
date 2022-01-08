@@ -1,14 +1,6 @@
 import string
 from collections import defaultdict
 
-
-def word_count(text):
-    counts = defaultdict(int)
-    for word in text.split():
-        counts[word.lower()] += 1
-    return counts
-
-
 def map(key, value):
     intermediate = []
     for word in value.split():
